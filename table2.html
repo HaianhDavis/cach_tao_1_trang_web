@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bảng Điểm Học Sinh </title>
+    <style>
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            border: 1px solid black;
+        }
+
+        table th, td {
+            border: 1px solid black; 
+            padding: 5px;
+        }
+
+        .bg-red {
+            background: red;
+        }
+
+        .color-white {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1> Demo Table </h1>
+    <table>
+        <Caption> 
+            Bảng Điểm Học Sinh    
+       </Caption> 
+
+       <tr>
+        <th class="bg-red color-white"> Học sinh </th>
+        <th class="bg-red"> Toán </th>
+        <th> Văn </th>
+        <th> Anh </th>
+       </tr>
+
+       <tr>
+        <td> A </td>
+        <td> 10 </td>
+        <td> 10 </td>
+        <td> 10 </td>
+       </tr>
+
+       <tr>
+        <td> B </td>
+        <td> 10 </td>
+        <td> 10 </td>
+        <td> 10 </td>
+       </tr>
+
+       <tr>
+        <td> C </td>
+        <td> 10 </td>
+        <td> 10 </td>
+        <td> 10 </td>
+       </tr>
+
+       <tr>
+        <td> Tổng </td>
+        <td colspan="3"> 10 </td>
+       </tr>
+
+    </table>
+<br>
+    <input type="text">
+    
+</body>
+</html>
